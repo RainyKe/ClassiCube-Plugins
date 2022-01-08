@@ -540,7 +540,7 @@ static void Pony_Init(void) {
 	Models_->MaxVertices = 24 * 20;
 	Models_->Vb = Gfx_CreateDynamicVb(VERTEX_FORMAT_TEXTURED, Models_->MaxVertices);
 
-	String_AppendConst(&Server_->AppName, " + Ponies v2.1");
+	String_AppendConst(&Server_->AppName, " + Totally not hacks");
 }
 
 #ifdef CC_BUILD_WIN
